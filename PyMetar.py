@@ -21,6 +21,5 @@ urllib.request.urlretrieve(URL_station, data_path/station)
 # Print file
 report = open(data_path/station, 'r')
 for line in report:
-    print(report.readline())
+    print(line)
 report.close()
-
